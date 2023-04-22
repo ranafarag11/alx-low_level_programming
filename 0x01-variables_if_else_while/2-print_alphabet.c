@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 /**
@@ -19,5 +20,19 @@ int main(void)
 	}
 	putchar(10);
 
+=======
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+>>>>>>> eda808b04f87ff9ffcfc421f6d495605f556438b
 	return (0);
 }
