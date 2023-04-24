@@ -1,12 +1,13 @@
 #include <stdio.h>
 
+
 /**
-* main - function to print the letters of the alphabet
-*
-*Description:used putchar function to  print the letters of the alphabet
-*according to ASCII 
-* Return: 0
-*/
+ * main - print the letters of the alphabet
+ *
+ * Description:Function to print the letters of the alphabe using putchar
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -19,4 +20,5 @@ int main(void)
 	}
 	putchar(10);
 
+	return (0);
 }
