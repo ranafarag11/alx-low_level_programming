@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
  * main - Entry Point
  *
@@ -12,25 +10,21 @@
 
 int main(void)
 {
-	int x = 97;
-	int y = 65;
-
-	while(x < 123)
-	{
-                putchar(x);
-                x++;
-        
-	}
-
-	while(y < 91)
-	{
-		putchar(y);
-		y++;
-	
-	}	
-
-        putchar(10);
-
-        
-	return (0);
+    int x = 97;
+    int y = 65;
+    
+    while(x < 123)
+    {
+        putchar(x);
+        x++;
+    }
+    
+    while(y < 91)
+    {
+        putchar(y);
+        y++;
+    }
+    
+    putchar(10);
+    return (0);
 }
