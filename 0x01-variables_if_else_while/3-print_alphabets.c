@@ -10,21 +10,22 @@
 
 int main(void)
 {
-    int x = 97;
-    int y = 65;
-    
-    while(x < 123)
+	int x = 97;
+	int y = 65;
+
+    while (x < 123)
     {
-        putchar(x);
-        x++;
+	    putchar(x);
+	    x++;
     }
     
-    while(y < 91)
+    while (y < 91)
     {
-        putchar(y);
-        y++;
+	    putchar(y);
+	    y++;
     }
     
-    putchar(10);
-    return (0);
+putchar(10);
+
+return (0);
 }
