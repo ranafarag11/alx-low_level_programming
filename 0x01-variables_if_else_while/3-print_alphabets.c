@@ -10,19 +10,19 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 {
-	       int x = 97;
-	       int y = 65;
+	int x = 97;
+	int y = 65;
 
-        while (x < 123)
-        {
+	while(x < 123)
+	{
                 putchar(x);
                 x++;
         
 	}
 
-	while (y < 91)
+	while(y < 91)
 	{
 		putchar(y);
 		y++;
