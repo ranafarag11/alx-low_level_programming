@@ -2,7 +2,7 @@
 
 /**
  * main - print the alphabet
- * 
+ *
  * Description: print the alphabet except q & e
  *
  * Return: 0
@@ -14,7 +14,7 @@ int main(void)
 
 	while (b < 123)
 	{
-		if (b != 101 && b !=113)
+		if (b != 101 && b != 113)
 		{
 			putchar(b);
 		}
