@@ -15,11 +15,11 @@ int main(void)
 		while (z > 96)
 		{
 			putchar(z);
-			z++;
+			z--;
 		}
 
 	putchar(10);
 
-	return(0);
+	return (0);
 }
 
