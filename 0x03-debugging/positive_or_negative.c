@@ -3,6 +3,16 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+ * positive_or_negative - determine if number is positive or negative
+ *
+ * Description: program will assign a random number to the variable n each time
+ * its executed.
+ *
+ *  Return: void
+ */
+
+
 void positive_or_negative(int i)
 {
 
