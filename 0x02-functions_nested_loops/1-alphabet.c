@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
- * Print_alphabet - print lowercase alphabet
+ * print_alphabet - Entry point
  *
- * Description: print alphabet prints lower case only.
- *
- * return: void
+ * Return: Always 0 (Success)
  */
-
 void print_alphabet(void)
 {
 	int i = 97;
