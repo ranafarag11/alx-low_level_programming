@@ -1,14 +1,18 @@
 #include "main.h"
 
 /**
- * Print alphabet - print lowercase alphabet
- * return void
+ * Print_alphabet - print lowercase alphabet
+ *
+ * Description: print alphabet prints lower case only.
+ *
+ * return: void
  */
 
 void print_alphabet(void)
 {
 	int i = 97;
-	while (i < 123) 
+
+	while (i < 123)
 	{
 		_putchar(i);
 		i++;
